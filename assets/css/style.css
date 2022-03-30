@@ -9,3 +9,31 @@
 .carousel-indicators [data-bs-target] {
   background-color: #387BF5;
 }
+
+@media screen and (max-width:800px){
+  .modal-body img {
+    width: 255px;
+  }
+}
+
+#countUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    .number {
+        font-size: 4rem;
+        font-weight: 500;
+        
+        + .text {
+            margin: 0 0 1rem;
+        }
+    }
+    
+    .text {
+        font-weight: 300;
+        text-align: center;
+    }
+}
