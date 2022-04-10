@@ -38,6 +38,10 @@
 
 
   <body>
+    <!-- <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div> -->
+
 
     <!-- ===============================================-->
     <!--    Main Content-->
@@ -47,18 +51,22 @@
         <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/icon-ss.png" alt="" width="55" /><span class="text-1000 fs-1 ms-2 fw-medium">Server<span class="fw-bold">Sebelah</span></span></a>
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
-            <!-- <ul class="navbar-nav mx-auto border-bottom border-lg-bottom-0 pt-2 pt-lg-0">
-              <li class="nav-item"><a class="nav-link active active" aria-current="page" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Pricing </a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Help </a></li>
-            </ul> -->
-            <form class="py-3 py-lg-0">
+            <form class="py-3 py-lg-0 px-3">
+              <ul class="navbar-nav mx-auto border-bottom border-lg-bottom-0 pt-2 pt-lg-0">
+                <li class="nav-item"><a class="nav-link"  href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active active" aria-current="page" href="#">Staff</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Pricing </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Help </a></li>
+
+              </ul>
+
               <!-- <button class="btn btn-link text-1000 fw-medium order-1 order-lg-0" type="button">Sign in</button> -->
-              <button class="btn btn-outline-primary rounded-pill order-0" type="submit">Join Us Now!</button>
+              <!-- <button class="btn btn-outline-primary rounded-pill order-0" href="https://discord.gg/uchUxxAtPm">Join Us Now!</button> -->
+              
             </form>
-          </div> 
+            <a class="btn btn-outline-primary rounded order-0 btn-glow fs--1" href="https://discord.gg/uchUxxAtPm">Join Us Now! </a>
+          </div>  
             
         </div>
       </nav>
@@ -81,7 +89,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/dos.gif" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/dos.gif" width="125" alt="" style="border:5px solid #FFCA28"/>
                     <h5 class="my-4">Dosss.#0001</h5>
                   </div>
                   <div class="text-center my-5">
@@ -113,7 +121,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-13.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-13.png" width="125" alt="" style="border:5px solid #75A5B7"/>
                     <h5 class="my-4">grapesod#2638</h5>
                   </div>
                   <div class="text-center my-5">
@@ -148,7 +156,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-14.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-14.png" width="125" alt="" style="border:5px solid #0AE0AA"/>
                     <h5 class="my-4">Tatsumi#6003</h5>
                   </div>
                   <div class="text-center my-5">
@@ -162,11 +170,11 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/popon.png" width="125" alt="" "/>
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/popon.png" width="125" alt="" style="border:5px solid #0AE0AA"/>
                     <h5 class="my-4">Cleo#4555</h5>
                   </div>
                   <div class="text-center my-5">
-                    <h3 class="mb-3 text-center">Prince<img src="assets/img/icon-ss.png" width="50" class="mb-2 alt=""> 
+                    <h3 class="mb-3 text-center">Prince<img src="assets/img/icon-ss.png" width="50" class="mb-2" alt="" > 
                     </h3>
                     
                   </div>
@@ -176,11 +184,39 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-2.png" width="125" alt="""/>
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-2.png" width="125" alt="" style="border:5px solid #0AE0AA"/>
                     <h5 class="my-4">alvin#3492</h5>
                   </div>
                   <div class="text-center my-5">
-                    <h3 class="mb-3 text-center">Prince<img src="assets/img/icon-ss.png" width="50" class="mb-2 alt="">  
+                    <h3 class="mb-3 text-center">Prince<img src="assets/img/icon-ss.png" width="50" class="mb-2" alt="">  
+                    </h3>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+              <div class="card h-70">
+                <div class="card-body d-flex flex-column justify-content-around mx-auto">
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-16.png" width="125" alt="" style="border:5px solid #0AE0AA"/>
+                    <h5 class="my-4">calievfie#7863</h5>
+                  </div>
+                  <div class="text-center my-5">
+                    <h3 class="mb-3 text-center">Prince<img src="assets/img/icon-ss.png" width="50" class="mb-2" alt="">  
+                    </h3>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+              <div class="card h-70">
+                <div class="card-body d-flex flex-column justify-content-around mx-auto">
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-16.png" width="125" alt="" style="border:5px solid #0AE0AA"/>
+                    <h5 class="my-4">calievfie#7863</h5>
+                  </div>
+                  <div class="text-center my-5">
+                    <h3 class="mb-3 text-center">Prince<img src="assets/img/icon-ss.png" width="50" class="mb-2" alt="">  
                     </h3>
                     
                   </div>
@@ -212,7 +248,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-13.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-13.png" width="125" alt="" style="border:5px solid #D8FF55"/>
                     <h5 class="my-4">grapesod#2638</h5>
                   </div>
                   <div class="text-center my-5">
@@ -226,7 +262,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-ikan.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-ikan.png" width="125" alt="" style="border:5px solid #D8FF55" />
                     <h5 class="my-4">ikanhiuuu#8663</h5>
                   </div>
                   <div class="text-center my-5">
@@ -240,7 +276,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-10.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-10.png" width="125" alt="" style="border:5px solid #D8FF55" />
                     <h5 class="my-4">Ditttt#0001</h5>
                   </div>
                   <div class="text-center my-5">
@@ -277,7 +313,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-1.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-1.png" width="125" alt="" style="border:5px solid #cebcd6" />
                     <h5 class="my-4">Syd#3337</h5>
                   </div>
                   <div class="text-center my-5">
@@ -309,7 +345,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/popon.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/popon.png" width="125" alt=""  style="border:5px solid #e4c600"/>
                     <h5 class="my-4">Cleo#4555</h5>
                   </div>
                   <div class="text-center my-5">
@@ -323,7 +359,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-5.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-5.png" width="125" alt=""  style="border:5px solid #e4c600"/>
                     <h5 class="my-4">Raya#9952</h5>
                   </div>
                   <div class="text-center my-5">
@@ -353,7 +389,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-11.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-11.png" width="125" alt="" style="border:5px solid red"/>
                     <h5 class="my-4">Bobaman.#2010</h5>
                   </div>
                   <div class="text-center my-5">
@@ -367,7 +403,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-4.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-4.png" width="125" alt="" style="border:5px solid red"/>
                     <h5 class="my-4">Phoenyx#4011</h5>
                   </div>
                   <div class="text-center my-5">
@@ -399,7 +435,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-15.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-15.png" width="125" alt="" style="border:5px solid #da004e" />
                     <h5 class="my-4">(╥﹏╥)#1193</h5>
                   </div>
                   <div class="text-center my-5">
@@ -413,7 +449,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-70">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-4.png" width="125" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid rounded-circle" src="assets/img/illustrations/pp-4.png" width="125" alt="" style="border:5px solid #da004e"/>
                     <h5 class="my-4">Phoenyx#4011</h5>
                   </div>
                   <div class="text-center my-5">
